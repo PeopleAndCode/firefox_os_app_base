@@ -1,0 +1,55 @@
+{
+  "name": "Firefox OS App Template",
+  "description": "A web app that tracks your newborn's feed, pee and poop patterns.  Critical in the early days to ensure your little one is healthy.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Raymond Kao",
+    "url": "http://peopleandcode.com"
+  },
+  "default_locale": "en",
+// optional
+   "activities": {
+    "share": {
+      "filters": {
+        "type": [ "image/png", "image/gif" ]
+      },
+      "href": "foo.html",
+      "disposition": "window",
+      "returnValue": true
+    }
+  },
+  "appcache_path": "/cache.appcache",
+  "chrome": {
+    "navigation": false
+  },
+  "fullscreen": "true",
+  "installs_allowed_from": ["*"],
+  // "locales": {
+  //   "es": {
+  //     "description": "¡Acción abierta emocionante del desarrollo del Web!",
+  //     "developer": {
+  //       "url": "http://es.mozillalabs.com/"
+  //     }
+  //   },
+  //   "it": {
+  //     "description": "Azione aperta emozionante di sviluppo di fotoricettore!",
+  //     "developer": {
+  //       "url": "http://it.mozillalabs.com/"
+  //     }
+  //   }
+  // },
+  "messages": [
+    { "telephony-new-call": "/dialer/index.html#keyboard-view" },
+    { "bluetooth-dialer-command": "/dialer/index.html#keyboard-view" },
+    { "headset-button": "/dialer/index.html#keyboard-view" },
+    { "notification": "/dialer/index.html#keyboard-view" },
+    { "alarm": "/facebook/fb_sync.html" }
+  ],
+  // portrait, landscape, portrait-primary, landscape-primary, portrait-secondary or landscape-secondary
+  "orientation": ["portrait","landscape-secondary"],
+  "origin":"app://example.peopleandcode.com"  
+  
+} 

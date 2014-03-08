@@ -1,0 +1,7 @@
+node_modules
+dist
+dev
+.tmp
+.sass-cache
+src/bower_components
+test/bower_components
