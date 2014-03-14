@@ -38,8 +38,9 @@ You can change this to your liking by renaming the directory and changing the ``
 
 ## Technologies Used
 1. [Yeoman](http://yeoman.io)
-2. [Bower](http://bower.io)
-3. [Grunt](http://gruntjs.com)
-4. [Sass](http://sass-lang.com)
-5. [Bootstrap](http://getbootstrap.com)
-6. [jQuery](http://jquery.com)
+1. [Bower](http://bower.io)
+1. [Grunt](http://gruntjs.com)
+1. [Haml](http://haml.info)
+1. [Sass](http://sass-lang.com)
+1. [Bootstrap](http://getbootstrap.com)
+1. [jQuery](http://jquery.com)

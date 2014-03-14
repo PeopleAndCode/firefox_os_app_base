@@ -1,13 +1,13 @@
 {
   "name": "Firefox OS App Template",
-  "description": "A web app that tracks your newborn's feed, pee and poop patterns.  Critical in the early days to ensure your little one is healthy.",
+  "description": "Base template for a FxOS app using Yeoman, Bower, Grunt, Haml, Sass, Ember, Hamlbars.",
   "launch_path": "/index.html",
   "icons": {
     "128": "/img/icon-128.png"
   },
   "developer": {
     "name": "Raymond Kao",
-    "url": "http://peopleandcode.com"
+    "url": "https://github.com/PeopleAndCode/firefox_os_app_base"
   },
   "default_locale": "en",
 // optional
